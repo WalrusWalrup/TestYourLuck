@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Your Luck</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>🎲 Test Your Luck 🎲</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#roll">Roll</a>
+            <a href="#inventory">Inventory</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Welcome to **Test Your Luck**! This is a fun game where you roll a virtual dice to discover how lucky
+                you really are. Each roll has a chance to give you an item with varying rarities, from **Really Common
+                (1/2)** to the nearly impossible **One in a Million (1/10000)**.
+            </p>
+            <p>
+                The rarer the result, the harder it is to roll! Are you feeling lucky? Give it a try, and track your
+                results in the inventory section.
+            </p>
+        </section>
+        <section id="roll">
+            <h2>Roll the Dice</h2>
+            <p>Click the button below to roll the dice and test your luck! Watch the dice roll before revealing your
+                prize.</p>
+            <div class="dice-container">
+                <div id="dice" class="dice">🎲</div>
+            </div>
+            <button id="rollButton">Roll the Dice</button>
+            <p id="result"></p>
+        </section>
+        <section id="inventory">
+            <h2>Inventory</h2>
+            <p>Here are all the items you've rolled so far:</p>
+            <ul id="inventoryList">
+                <li>No items yet. Roll the dice to start collecting!</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you encounter any problems, please email us at: <a
+                    href="mailto:mrwalrus2023@gmail.com">mrwalrus2023@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Test Your Luck. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
